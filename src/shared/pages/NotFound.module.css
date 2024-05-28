@@ -1,0 +1,37 @@
+#pageNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.not-found-container {
+    padding: 0 2rem 2rem;
+}
+
+.error {
+    font-size: 150px;
+    color: #1976d2;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px rgba(173, 216, 230, 0.599),
+        2px 2px 1px rgba(173, 216, 230, 0.599),
+        3px 3px 1px rgba(173, 216, 230, 0.599),
+        4px 4px 1px rgba(173, 216, 230, 0.599),
+        5px 5px 1px rgba(173, 216, 230, 0.599),
+        6px 6px 1px rgba(173, 216, 230, 0.599),
+        7px 7px 1px rgba(173, 216, 230, 0.599),
+        8px 8px 1px rgba(173, 216, 230, 0.599), 25px 25px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+    margin: 1rem 0 4rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+}
+
+#pageNotFound .not-found-container .v-btn__overlay {
+    opacity: 0;
+}
